@@ -24,7 +24,7 @@ public class Servidor {
         estudiantes.add(crearEstudiante(785, "Nebraska Mejia", "555555555", "Educación", 3, false));
         estudiantes.add(crearEstudiante(894, "Dayana Pachacama", "666666666", "Negocios", 5, true));
         estudiantes.add(crearEstudiante(913, "Julss Medranda", "777777777", "Música", 2, true));
-        estudiantes.add(crearEstudiante(102, "Wilmer Bonilla", "888888888", "Aplicaciones Distribuidas", 6, true)); // tú mismo
+        estudiantes.add(crearEstudiante(102, "Wilmer Bonilla", "888888888", "Aplicaciones Distribuidas", 6, true));
     }
 
     private Estudiante crearEstudiante(int id, String nombre, String tel, String carrera, int sem, boolean gratuidad) {
